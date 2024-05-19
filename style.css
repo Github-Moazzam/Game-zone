@@ -264,7 +264,11 @@ ul a {
     width: 200px;
 }
 
-.webcam .card-img{
+.PS5-disk-nba2k24 .card-img{
+    padding-top: 20px;
+}
+
+.HDMI .card-img{
     padding-top: 20px;
 }
 
