@@ -9,6 +9,9 @@ body {
     background-color: #fafafc;
 }
 
+.mobile-navbar{
+    display: none;
+}
 .mob-navbar {
     display: none;
 }
@@ -257,18 +260,19 @@ ul a {
     /* padding-top: 10px; */
 }
 
-.PS5-Controller .card-img{
-    width: 200px;
-}
-.PS5 .card-img{
+.PS5-Controller .card-img {
     width: 200px;
 }
 
-.PS5-disk-nba2k24 .card-img{
+.PS5 .card-img {
+    width: 200px;
+}
+
+.nba .card-img {
     padding-top: 20px;
 }
 
-.HDMI .card-img{
+.HDMI .card-img {
     padding-top: 20px;
 }
 
@@ -328,6 +332,9 @@ ul a {
     box-shadow: 0 8px 12px rgba(0, 0, 0, 0.15), 0 3px 6px rgba(0, 0, 0, 0.10);
 }
 
+.mob-whishlist{
+    display: none;
+}
 .whishlist {
     background-color: rgb(211, 255, 14);
     border: 0;
@@ -340,12 +347,18 @@ ul a {
     cursor: pointer;
 }
 
-.whishlist i{
+.whishlist i {
     color: red;
 }
 
 .whishlist:hover {
     box-shadow: 0 8px 12px rgba(0, 0, 0, 0.15), 0 3px 6px rgba(0, 0, 0, 0.10);
+}
+
+
+
+footer{
+    height: 300px;
 }
 
 
@@ -357,6 +370,10 @@ ul a {
 
 
 @media (max-width:1280px) {
+
+    .mobile-navbar {
+        display: none;
+    }
 
     .mob-navbar {
         display: none;
@@ -439,6 +456,34 @@ ul a {
 }
 
 @media (max-width:768px) {
+
+    .mobile-navbar {
+        display: block;
+        height: 60px;
+
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+
+    }
+
+    .mob-logo {
+        font-size: 20px;
+        font-weight: 600;
+        padding: 0px 10px;
+    }
+
+
+    .mob-search-cart a {
+        padding: 0px 10px;
+    }
+
+    .mobile-navbar a {
+        color: rgb(0, 0, 0);
+        text-decoration: none;
+    }
+
     header {
         display: none;
     }
@@ -475,6 +520,7 @@ ul a {
     .swiper .swiper-button-prev,
     .swiper .swiper-button-next {
         display: none;
+
     }
 
     .featured:hover {
@@ -494,6 +540,151 @@ ul a {
         width: 13px;
         border-radius: 10px;
     }
+
+    .categories {
+        width: 97%;
+        border-radius: 0px;
+        box-shadow: 0px 0px 0px rgb(0, 0, 0, 0.06);
+        overflow-y: hidden;
+
+    }
+
+    .categories-bar{
+        padding-inline: 8px;
+    }
+
+    .categories-bar button{
+        color: #686868;
+    }
+
+    .swiper {
+        border-radius: 30px;
+        width: 90%;
+        height: fit-content;
+
+    }
+
+    .cards {
+        width: 155px;
+        height: 200px;
+        border: 1px solid rgb(226, 224, 224);
+        margin: 10px 8px;
+        border-radius: 20px;
+        background-color: #fafafc;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.15),
+            /* Basic shadow */
+            0 1px 3px rgba(0, 0, 0, 0.10);
+        /* Softer shadow */
+        transition: box-shadow 0.3s ease-in-out;
+    
+    }
+    
+    .cards:hover {
+        box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2),
+            /* Slightly stronger shadow */
+            0 3px 6px rgba(0, 0, 0, 0.15);
+        /* Softer secondary shadow */
+    }
+    
+    .card-img {
+        width: 60px;
+        height: 80px;
+        margin: 0 auto;
+        /* padding-top: 10px; */
+    }
+    
+    .PS5-Controller .card-img {
+        width:70%;
+    }
+    
+    .PS5 .card-img {
+    width: 70%;
+    }
+    
+    .nba .card-img {
+        padding:  0px 0px;
+    }
+    
+    .HDMI .card-img {
+        padding-top: 0px;
+    }
+    
+    .card-img img {
+        height: 100%;
+        width: 100%;
+    
+    }
+    
+    .product-name {
+        font-size: 12px;
+        text-align: center;
+        padding-inline: 5px;
+        font-weight: 700;
+    }
+    
+    .product-discription {
+        display: none;
+    }
+    
+    .product-price {
+        width: fit-content;
+        margin: 0px auto;
+        margin-bottom: 6px;
+        font-size: 16px;
+        font-weight: 500;
+        color: green;
+    }
+    
+    .whishlist-view-btn {
+      display: none;
+    }
+    
+    
+    
+    .whishlist {
+        background-color: rgb(211, 255, 14);
+        border: 0;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.08);
+        transition: box-shadow 0.3s ease-in-out;
+        padding: 6px;
+        border-radius: 15px;
+        width: 60px;
+        font-size: 16px;
+        cursor: pointer;
+    }
+    
+    .whishlist i {
+        color: red;
+    }
+    
+    .whishlist:hover {
+        box-shadow: 0 8px 12px rgba(0, 0, 0, 0.15), 0 3px 6px rgba(0, 0, 0, 0.10);
+    }
+
+    .mob-whishlist{
+        display: flex;
+        justify-content: end;
+        margin: 8px 15px;
+        
+    }
+
+    .mob-whishlist button{
+        font-size: 20px;
+        border: 0;
+        background: 0;
+    }
+
+    
+    .listings{
+        justify-content: space-evenly;
+    }
+
+.product-name{
+    padding: 5px 0px;
+    text-align:center;
+}
+
+
 
 
 
