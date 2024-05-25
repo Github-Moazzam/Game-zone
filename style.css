@@ -477,6 +477,7 @@ footer{
 
     .mob-search-cart a {
         padding: 0px 10px;
+        
     }
 
     .mobile-navbar a {
@@ -558,9 +559,9 @@ footer{
     }
 
     .swiper {
-        border-radius: 30px;
-        width: 90%;
-        height: fit-content;
+        border-radius: 15px;
+        width: 97%;
+        height:135px;
 
     }
 
@@ -682,6 +683,10 @@ footer{
 .product-name{
     padding: 5px 0px;
     text-align:center;
+}
+
+.mob-search-cart i{
+font-size: 20px;
 }
 
 
