@@ -21,3 +21,26 @@ const swiper = new Swiper('.swiper', {
   
   
   });
+
+
+  function filterProducts(category) {
+    const products = document.querySelectorAll('.cards');
+   
+    
+    products.forEach(product => {
+        if (category === 'all') {
+            product.classList.add('active');
+            console.log("if");
+        } else {
+            product.classList.toggle('active', product.getAttribute('data-category') === category);
+            console.log("else");
+
+        }
+    });
+}
+
+// Initially show all products
+filterProducts('all');
+
+
+

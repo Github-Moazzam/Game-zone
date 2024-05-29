@@ -121,19 +121,19 @@
     </div>
 
     <div class="categories">
-        <div class="categories-bar all"><button>All</button></div>
-        <div class="categories-bar console"><button>Consoles</button></div>
-        <div class="categories-bar controllers"><button>Controllers</button></div>
-        <div class="categories-bar games"><button>Games</button></div>
-        <div class="categories-bar accessories"><button>Accessories</button></div>
-        <div class="categories-bar laptops"><button>Laptops</button></div>
-        <div class="categories-bar monitors"><button>Monitors</button></div>
-        <div class="categories-bar GPU"><button>GPU</button></div>
+        <div class="categories-bar all"><button onclick="filterProducts('all')">All</button></div>
+        <div class="categories-bar console"><button  onclick="filterProducts('consoles')">Consoles</button></div>
+        <div class="categories-bar controllers"><button onclick="filterProducts('controllers')">Controllers</button></div>
+        <div class="categories-bar games"><button onclick="filterProducts('games')">Games</button></div>
+        <div class="categories-bar accessories"><button  onclick="filterProducts('accessories')">Accessories</button></div>
+        <div class="categories-bar laptops"><button onclick="filterProducts('laptop')">Laptops</button></div>
+        <div class="categories-bar monitors"><button onclick="filterProducts('monitor')" >Monitors</button></div>
+        <div class="categories-bar GPU"><button onclick="filterProducts('gpu')">GPU</button></div>
     </div>
 
     <div class="listings">
-        <a href="#">
-            <div class="cards RTX-4060">
+        <a href="./RTX-4060-page/rtx-4060-page.html">
+            <div class="cards RTX-4060" data-category="gpu">
 
                 <div class="mob-whishlist">
                     <button class="mob-whish" title="Add to whishlist"><i class="fa-regular fa-heart"></i></button>
@@ -175,8 +175,8 @@
         </a>
 
 
-        <a href="#">
-            <div class="cards PS5">
+        <a href="./PS5-page/PS5-page.html">
+            <div class="cards PS5" data-category="consoles">
 
                 <div class="mob-whishlist">
                     <button class="mob-whish" title="Add to whishlist"><i class="fa-regular fa-heart"></i></button>
@@ -217,8 +217,8 @@
             </div>
         </a>
 
-        <a href="#">
-            <div class="cards PS5-Controller">
+        <a href="./PS5-controller-page/PS5-controller-page.html">
+            <div class="cards PS5-Controller" data-category="controllers">
                 <div class="mob-whishlist">
                     <button class="mob-whish" title="Add to whishlist"><i class="fa-regular fa-heart"></i></button>
                 </div>
@@ -257,8 +257,8 @@
             </div>
         </a>
 
-        <a href="#">
-            <div class="cards webcam">
+        <a href="./webcam-page/webcam-page.html">
+            <div class="cards webcam" data-category="accessories">
                 <div class="mob-whishlist">
                     <button class="mob-whish" title="Add to whishlist"><i class="fa-regular fa-heart"></i></button>
                 </div>
@@ -297,8 +297,8 @@
             </div>
         </a>
         
-        <a href="#">
-            <div class="cards nba">
+        <a href="./NBA-page/NBA-page.html">
+            <div class="cards nba" data-category="games">
                 <div class="mob-whishlist">
                     <button class="mob-whish" title="Add to whishlist"><i class="fa-regular fa-heart"></i></button>
                 </div>
@@ -338,8 +338,8 @@
         </a>
         
 
-        <a href="#">
-            <div class="cards laptop">
+        <a href="./lenovo-laptop-page/lenovo-laptop-page.html">
+            <div class="cards laptop" data-category="laptop">
 
                 <div class="mob-whishlist">
                     <button class="mob-whish" title="Add to whishlist"><i class="fa-regular fa-heart"></i></button>
@@ -381,8 +381,8 @@
         </a>
 
 
-        <a href="#">
-            <div class="cards monitor">
+        <a href="./MSI-monitor-page/MSI-monitor-page.html">
+            <div class="cards monitor" data-category="monitor">
                 <div class="mob-whishlist">
                     <button class="mob-whish" title="Add to whishlist"><i class="fa-regular fa-heart"></i></button>
                 </div>
@@ -422,8 +422,8 @@
         </a>
 
        
-        <a href="#">
-            <div class="cards HDMI">
+        <a href="./HDMI-cable-page/HDMI-cable-page.html">
+            <div class="cards HDMI" data-category="accessories">
 
                 <div class="mob-whishlist">
                     <button class="mob-whish" title="Add to whishlist"><i class="fa-regular fa-heart"></i></button>
@@ -463,6 +463,345 @@
 
             </div>
         </a>
+
+        
+        <a href="./RTX-4060-page/rtx-4060-page.html">
+            <div class="cards RTX-4060" data-category="gpu">
+
+                <div class="mob-whishlist">
+                    <button class="mob-whish" title="Add to whishlist"><i class="fa-regular fa-heart"></i></button>
+                </div>
+
+                <div class="card-img">
+                    <img src="RTX-4060.png" alt="">
+                </div>
+
+                <div class="card-text">
+                    <div class="product-name">
+                        ZOTAC Gaming Geforce RTX 4060 8Gb
+
+                    </div>
+
+                    <div class="product-discription">
+                        <ul>
+                            <li>3072 CUDA cores</li>
+                            <li>Boost: 2460 MHz Engine Clock</li>
+                            <li>8GB GDDR6 128-bit 17 Gbps Memory</li>
+                            <li>Freeze Fan Stop - Metal Backplate</li>
+                        </ul>
+                    </div>
+
+                    <div class="product-price">Rs. 107,000
+
+                    </div>
+
+                    <div class="whishlist-view-btn">
+                        <button class="whishlist" title="Add to whishlist"><i class="fa-solid fa-heart"></i></button>
+                        <button class="view-btn"><i class="fa-solid fa-link"></i> View Details</button>
+                    </div>
+
+
+
+                </div>
+
+            </div>
+        </a>
+
+
+        <a href="./PS5-page/PS5-page.html">
+            <div class="cards PS5" data-category="consoles">
+
+                <div class="mob-whishlist">
+                    <button class="mob-whish" title="Add to whishlist"><i class="fa-regular fa-heart"></i></button>
+                </div>
+
+                <div class="card-img">
+                    <img src="PS5.png" alt="">
+                </div>
+
+                <div class="card-text">
+                    <div class="product-name">
+                        Sony PlayStation 5 Digital Edition Console
+
+                    </div>
+
+                    <div class="product-discription">
+                        <ul>
+                            <li>Slim Design - HDR Technology - Tempest 3D AudioTech</li>
+                            <li>1TB of Storage - Up to 120fps with 120Hz output</li>
+                            <li>Ultra-High Speed SSD - 4K-TV Gaming</li>
+                            <li>Integrated I/O - Ray Tracing</li>
+                        </ul>
+                    </div>
+
+                    <div class="product-price">Rs. 152,000
+
+                    </div>
+
+                    <div class="whishlist-view-btn">
+                        <button class="whishlist" title="Add to whishlist"><i class="fa-solid fa-heart"></i></button>
+                        <button class="view-btn"><i class="fa-solid fa-link"></i> View Details</button>
+                    </div>
+
+
+
+                </div>
+
+            </div>
+        </a>
+
+        <a href="./PS5-controller-page/PS5-controller-page.html">
+            <div class="cards PS5-Controller" data-category="controllers">
+                <div class="mob-whishlist">
+                    <button class="mob-whish" title="Add to whishlist"><i class="fa-regular fa-heart"></i></button>
+                </div>
+                <div class="card-img">
+                    <img src="controller.png" alt="">
+                </div>
+
+                <div class="card-text">
+                    <div class="product-name">
+                        Sony PlayStation 5 Digital Edition Console
+
+                    </div>
+
+                    <div class="product-discription">
+                        <ul>
+                            <li>Haptic Feedback</li>
+                            <li>Dynamic Adaptive Triggers</li>
+                            <li>Built-In Microphone</li>
+                            <li>Signature PlayStation Comfort</li>
+                        </ul>
+                    </div>
+
+                    <div class="product-price">Rs. 19,990
+
+                    </div>
+
+                    <div class="whishlist-view-btn">
+                        <button class="whishlist" title="Add to whishlist"><i class="fa-solid fa-heart"></i></button>
+                        <button class="view-btn"><i class="fa-solid fa-link"></i> View Details</button>
+                    </div>
+
+
+
+                </div>
+
+            </div>
+        </a>
+
+        <a href="./webcam-page/webcam-page.html">
+            <div class="cards webcam" data-category="accessories">
+                <div class="mob-whishlist">
+                    <button class="mob-whish" title="Add to whishlist"><i class="fa-regular fa-heart"></i></button>
+                </div>
+                <div class="card-img">
+                    <img src="webcam.png" alt="">
+                </div>
+
+                <div class="card-text">
+                    <div class="product-name">
+                        Logitech C920e Business Webcam
+
+                    </div>
+
+                    <div class="product-discription">
+                        <ul>
+                            <li>Dual Integrated Omnidirectional Mics</li>
+                            <li>Built-in HD Autofocus</li>
+                            <li>Certified for Microsoft Teams, Zoom, Google Meet</li>
+                            <li>Attachable Privacy Shade</li>
+                        </ul>
+                    </div>
+
+                    <div class="product-price">Rs. 19,000
+
+                    </div>
+
+                    <div class="whishlist-view-btn">
+                        <button class="whishlist" title="Add to whishlist"><i class="fa-solid fa-heart"></i></button>
+                        <button class="view-btn"><i class="fa-solid fa-link"></i> View Details</button>
+                    </div>
+
+
+
+                </div>
+
+            </div>
+        </a>
+        
+        <a href="./NBA-page/NBA-page.html">
+            <div class="cards nba" data-category="games">
+                <div class="mob-whishlist">
+                    <button class="mob-whish" title="Add to whishlist"><i class="fa-regular fa-heart"></i></button>
+                </div>
+                <div class="card-img">
+                    <img src="nba2k24.jpg" alt="">
+                </div>
+
+                <div class="card-text">
+                    <div class="product-name">
+                        Nba 2K24 | Kobe Bryant Edition 
+
+                    </div>
+
+                    <div class="product-discription">
+                        <ul>
+                            <li>Kobe Bryant Edition Pre-order Bonus's</li>
+                            <li>Mamba Moments</li>
+                            <li>Manage your MyTEAM</li>
+                            <li>MyCAREER heats up</li>
+                        </ul>
+                    </div>
+
+                    <div class="product-price">Rs. 10,000
+
+                    </div>
+
+                    <div class="whishlist-view-btn">
+                        <button class="whishlist" title="Add to whishlist"><i class="fa-solid fa-heart"></i></button>
+                        <button class="view-btn"><i class="fa-solid fa-link"></i> View Details</button>
+                    </div>
+
+
+
+                </div>
+
+            </div>
+        </a>
+        
+
+        <a href="./lenovo-laptop-page/lenovo-laptop-page.html">
+            <div class="cards laptop" data-category="laptop">
+
+                <div class="mob-whishlist">
+                    <button class="mob-whish" title="Add to whishlist"><i class="fa-regular fa-heart"></i></button>
+                </div>
+
+                <div class="card-img">
+                    <img src="laptop.png" alt="">
+                </div>
+
+                <div class="card-text">
+                    <div class="product-name">
+                        Lenovo V15 G4 IRU Laptop | Intel® Core™ i5-13420H 
+
+                    </div>
+
+                    <div class="product-discription">
+                        <ul>
+                            <li>Intel® Core™ i5-13420H, 8C</li>
+                            <li>8GB Soldered DDR4-3200 | 512GB SSD M.2 2242 PCIe® 4.0x4 NVMe®</li>
+                            <li>Integrated Intel® UHD Graphics</li>
+                            <li>15.6" FHD (1920x1080) TN 250nits</li>
+                        </ul>
+                    </div>
+
+                    <div class="product-price">Rs. 137,900
+
+                    </div>
+
+                    <div class="whishlist-view-btn">
+                        <button class="whishlist" title="Add to whishlist"><i class="fa-solid fa-heart"></i></button>
+                        <button class="view-btn"><i class="fa-solid fa-link"></i> View Details</button>
+                    </div>
+
+
+
+                </div>
+
+            </div>
+        </a>
+
+
+        <a href="./MSI-monitor-page/MSI-monitor-page.html">
+            <div class="cards monitor" data-category="monitor">
+                <div class="mob-whishlist">
+                    <button class="mob-whish" title="Add to whishlist"><i class="fa-regular fa-heart"></i></button>
+                </div>
+                <div class="card-img">
+                    <img src="monitor.png" alt="">
+                </div>
+
+                <div class="card-text">
+                    <div class="product-name">
+                        MSI MAG 274UPF 27" 4K Gaming Monitor 
+
+                    </div>
+
+                    <div class="product-discription">
+                        <ul>
+                            <li>4K UHD 2160p Rapid IPS 3840 x 2160 (UHD)</li>
+                            <li>400 (HDR Peak)</li>
+                            <li>144Hz 1ms (GtG) VESA DisplayHDR 400</li>
+                            <li>FreeSync Premium, G-sync compatible</li>
+                        </ul>
+                    </div>
+
+                    <div class="product-price">Rs. 172,900
+
+                    </div>
+
+                    <div class="whishlist-view-btn">
+                        <button class="whishlist" title="Add to whishlist"><i class="fa-solid fa-heart"></i></button>
+                        <button class="view-btn"><i class="fa-solid fa-link"></i> View Details</button>
+                    </div>
+
+
+
+                </div>
+
+            </div>
+        </a>
+
+       
+        <a href="./HDMI-cable-page/HDMI-cable-page.html">
+            <div class="cards HDMI" data-category="accessories">
+
+                <div class="mob-whishlist">
+                    <button class="mob-whish" title="Add to whishlist"><i class="fa-regular fa-heart"></i></button>
+                </div>
+
+                <div class="card-img">
+                    <img src="hdmi-cable.png" alt="">
+                </div>
+
+                <div class="card-text">
+                    <div class="product-name">
+                        HP High Speed HDMI Cable Black 2M UHD 4K
+
+                    </div>
+
+                    <div class="product-discription">
+                        <ul>
+                            <li>Supports HDMI features including 3D video)</li>
+                            <li>Ethernet and Audio Return Channel (ARC)</li>
+                            <li>Gold plated connectors</li>
+                            <li>RoHS compliant</li>
+                        </ul>
+                    </div>
+
+                    <div class="product-price">Rs. 1,750
+
+                    </div>
+
+                    <div class="whishlist-view-btn">
+                        <button class="whishlist" title="Add to whishlist"><i class="fa-solid fa-heart"></i></button>
+                        <button class="view-btn"><i class="fa-solid fa-link"></i> View Details</button>
+                    </div>
+
+
+
+                </div>
+
+            </div>
+        </a>
+
+       
+
+
+       
+        
 
 
 
@@ -512,6 +851,7 @@
 
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script src="script.js"></script>
+    
 
 </body>
 
