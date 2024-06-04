@@ -368,10 +368,89 @@ ul a {
     box-shadow: 0 8px 12px rgba(0, 0, 0, 0.15), 0 3px 6px rgba(0, 0, 0, 0.10);
 }
 
+.main-section{
+    width: 1000px;
+    /* border: 2px solid red; */
+    margin: 0px auto;
+    background-color: #fafafc;
+    margin-top: 20px;
+    
+}
+
+.main-top{
+    height: 230px;
+    /* border: 2px solid green; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.15), 0 3px 6px rgba(0, 0, 0, 0.10);
+    margin-bottom: 60px;
+    border-radius: 10px;
+}
+.user-img img{
+    height: 100px;
+    
+}
+
+.name{
+    font-size: 36px;
+    font-weight: 500;
+}
+
+.mail,.phno{
+    margin: 3px 0px;
+    text-align: center;
+    color: #686868;
+}
+
+.main-bottom{
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.15), 0 3px 6px rgba(0, 0, 0, 0.10);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    font-size: 22px;
+    
+}
+
+.main-bottom i{
+    margin-right: 15px;
+    /* border: 2px solid black; */
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #686868;
+}
+
+.bottom-btn{
+    height: 60px;
+    border-bottom: 1px solid rgb(196, 196, 196);
+    width: 98%;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 footer{
-    height: 300px;
+    height: 100px;
 }
 
 
@@ -456,6 +535,74 @@ footer{
         justify-content: space-around;
 
     }
+
+
+    .main-section{
+        width: 760px;
+        /* border: 2px solid red; */
+        margin: 0px auto;
+        background-color: #fafafc;
+        margin-top: 20px;
+        
+    }
+    
+    .main-top{
+        height: 230px;
+        /* border: 2px solid green; */
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        box-shadow: 0 8px 12px rgba(0, 0, 0, 0.15), 0 3px 6px rgba(0, 0, 0, 0.10);
+        margin-bottom: 60px;
+        border-radius: 10px;
+    }
+    .user-img img{
+        height: 100px;
+        
+    }
+    
+    .name{
+        font-size: 36px;
+        font-weight: 500;
+    }
+    
+    .mail,.phno{
+        margin: 3px 0px;
+        text-align: center;
+        color: #686868;
+    }
+    
+    .main-bottom{
+        box-shadow: 0 8px 12px rgba(0, 0, 0, 0.15), 0 3px 6px rgba(0, 0, 0, 0.10);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border-radius: 10px;
+        font-size: 22px;
+        
+    }
+    
+    .main-bottom i{
+        margin-right: 15px;
+       
+        border-radius: 50%;
+        width: 40px;
+        height: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #686868;
+    }
+    
+    .bottom-btn{
+        height: 60px;
+        border-bottom: 1px solid rgb(172, 172, 172);
+        width: 98%;
+        display: flex;
+        align-items: center;
+    }
+    
 
 
 
@@ -702,6 +849,76 @@ footer{
 .mob-search-cart i{
 font-size: 20px;
 }
+
+
+.main-section{
+    width: 88%;
+    /* border: 2px solid red; */
+    margin: 0px auto;
+    background-color: #fafafc;
+    margin-top: 20px;
+    
+}
+
+.main-top{
+    height: 230px;
+    /* border: 2px solid green; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.15), 0 3px 6px rgba(0, 0, 0, 0.10);
+    margin-bottom: 60px;
+    border-radius: 10px;
+}
+.user-img img{
+    height: 100px;
+    
+}
+
+.name{
+    font-size: 36px;
+    font-weight: 500;
+}
+
+.mail,.phno{
+    margin: 3px 0px;
+    text-align: center;
+    color: #686868;
+}
+
+.main-bottom{
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.15), 0 3px 6px rgba(0, 0, 0, 0.10);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    font-size: 18px;
+    
+}
+
+.main-bottom i{
+    margin-right: 15px;
+    margin-left: 5px;
+   
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #686868;
+}
+
+.bottom-btn{
+    height: 60px;
+    border-bottom: 1px solid rgb(172, 172, 172);
+    width: 98%;
+    display: flex;
+    align-items: center;
+}
+
+
 
 
 
